@@ -24,7 +24,7 @@ public class LookGoodToMe {
         return "Hello " + name + "!";
     }
 
-    // Hopefully flag RCE
+    // Hopefully flag RCE --
     public String commandExecutor(String cmd) {
         Runtime run = Runtime.getRuntime();
         StringBuilder sb = new StringBuilder();
